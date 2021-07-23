@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "prettier . --check",
-    "pretty": "prettier . --write --loglevel warn"
+    "pretty": "prettier . --write --loglevel warn",
+    "start": "firebase emulators:start --only hosting"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/socsieng/form-troubleshooter-forms#readme",
   "dependencies": {
+    "firebase-tools": "^9.16.0",
     "prettier": "^2.3.2"
   }
 }
