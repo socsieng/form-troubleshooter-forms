@@ -1,0 +1,23 @@
+{
+  "name": "form-troubleshooter-forms",
+  "version": "0.1.0",
+  "description": "Collection for forms used to test out the Form Troubleshooter extension",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier . --check",
+    "pretty": "prettier . --write --loglevel warn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socsieng/form-troubleshooter-forms.git"
+  },
+  "author": "socsieng",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/socsieng/form-troubleshooter-forms/issues"
+  },
+  "homepage": "https://github.com/socsieng/form-troubleshooter-forms#readme",
+  "dependencies": {
+    "prettier": "^2.3.2"
+  }
+}
