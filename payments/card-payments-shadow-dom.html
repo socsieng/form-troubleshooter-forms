@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Card Payments (shadowRoot)</title>
+	</head>
+
+	<body>
+		<h1>Card Payments (shadowRoot)</h1>
+		<shadow-element>
+			<form method="POST">
+				<div>
+					<label>
+						<span>Name on card</span>
+						<input type="text" name="cardName" autocomplete="cc-name" required />
+					</label>
+				</div>
+				<div>
+					<label>
+						<span>Card number</span>
+						<input type="text" name="cardNumber" autocomplete="cc-number" required />
+					</label>
+				</div>
+				<div>
+					<label>
+						<span>Expiry date</span>
+						<input type="text" name="expiry" autocomplete="cc-exp" required />
+					</label>
+				</div>
+				<div>
+					<label>
+						<span>CVV</span>
+						<input type="text" name="cvv" autocomplete="cc-csc" required />
+					</label>
+				</div>
+				<button>Confirm order</button>
+			</form>
+		</shadow-element>
+	</body>
+
+	<script src="/js/shadow-element.js"></script>
+</html>
